@@ -107,7 +107,7 @@ lincon <- function(formula, data, tr = 0.2, alpha = 0.05, method = "hochberg",..
   psihat[, 6] <- p.adjust(psihat[,6], method = method)
 
   fnames <- names(x)
-  result <- list(comp = psihat, fnames = fnames, call = cl)
+  result <- list(comp = psihat, fnames = fnames, alpha = alpha, call = cl)
   class(result) <- "mcp1"
   result
 }
