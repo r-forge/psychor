@@ -4,7 +4,7 @@ author: "Patrick Mair"
 output: rmarkdown::html_vignette
 bibliography: smacof.bib
 vignette: >
-  %\VignetteIndexEntry{MDS_Nutshell}
+  %\VignetteIndexEntry{MDS in a Nutshell}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
