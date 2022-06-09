@@ -57,7 +57,7 @@ ellipse = FALSE, eps = 1e-06)
   \item{sitescores}{List containing the site scores (CCA only).}
   \item{isetcor}{List containing the intraset correlations (CCA only).}
 }
-\references{De Leeuw, J. and Mair, P. (2009). Simple and Canonical Correspondence Analysis Using the R Package anacor. Journal of Statistical Software, 31(5), 1-18. \url{http://www.jstatsoft.org/v31/i05/}
+\references{De Leeuw, J. and Mair, P. (2009). Simple and Canonical Correspondence Analysis Using the R Package anacor. Journal of Statistical Software, 31(5), 1-18. \url{https://www.jstatsoft.org/v31/i05/}
 }
 \author{Jan de Leeuw, Patrick Mair}
 

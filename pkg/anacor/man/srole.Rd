@@ -11,7 +11,7 @@ Mental health has four categories (rows): well, mild symptom formation, moderate
 formation, and impaired. There are six categories of socio-economic status in the columns. 
 }
 
-\references{Srole, L., Langner, T.S., Michael, S.T., Opler, M.K., \& Rennie, T.A.C. (1962). 
+\references{Srole, L., Langner, T.S., Michael, S.T., Opler, M.K., & Rennie, T.A.C. (1962). 
 Mental health in the metropolis: The midtown Manhattan study. New York: McGraw-Hill.
 }
 \examples{

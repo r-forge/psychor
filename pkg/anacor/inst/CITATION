@@ -9,12 +9,12 @@ citEntry(entry = "Article",
   volume       = "31",
   number       = "5",
   pages        = "1--18",
-  url          = "http://www.jstatsoft.org/v31/i05/",
+  url          = "https://www.jstatsoft.org/v31/i05/",
 
   textVersion  =
   paste("Jan de Leeuw, Patrick Mair (2009).",
         "Simple and Canonical Correspondence Analysis Using the R Package anacor.",
         "Journal of Statistical Software, 31(5), 1-18.",
-        "URL http://www.jstatsoft.org/v31/i05/.")
+        "URL https://www.jstatsoft.org/v31/i05/.")
 )
 
