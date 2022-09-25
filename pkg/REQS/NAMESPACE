@@ -1,0 +1,5 @@
+import(gtools)
+importFrom("utils", "read.fwf", "write.table")
+export(run.eqs)
+export(call.eqs)
+export(read.eqs)

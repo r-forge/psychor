@@ -1,5 +1,5 @@
-princals <- function (data, ndim = 2, ordinal = TRUE, ties = "s", knots = knotsGifi(data, "D"), degrees = 2, copies = 1, 
-                      missing = "m", normobj.z = TRUE, active = TRUE, itmax = 1000, eps = 1e-6, verbose = FALSE)  {
+princals <- function (data, ndim = 2, levels = "ordinal", ordinal, knots, ties = "s", degrees = 1, copies = 1, 
+                      missing = "s", normobj.z = TRUE, active = TRUE, itmax = 1000, eps = 1e-6, verbose = FALSE)  {
     
     ## --- sanity checks
     names <- colnames(data, do.NULL = FALSE) 
@@ -9,13 +9,26 @@ princals <- function (data, ndim = 2, ordinal = TRUE, ties = "s", knots = knotsG
     ties <- match.arg(ties, c("s", "p", "t"), several.ok = FALSE)
     missing <- match.arg(missing, c("m", "s", "a"), several.ok = FALSE)
     ## --- end sanity checks
-  
+    
     aname <- deparse(substitute(data))
     nvars <- ncol(data)
     nobs <- nrow(data)
+    
+    ## --- prep levels 
+    if (missing(knots)) {
+      levels <- reshape(levels, nvars)
+      levelprep <- level_to_spline(levels, data)
+      ordinal <- levelprep$ordvec
+      knots <- levelprep$knotList
+    }
+    
+    
+    ## prep Gifi object
     g <- makeGifi(data = data, knots = knots, degrees = reshape(degrees, nvars), ordinal = reshape(ordinal, nvars),
                   sets =  1:nvars, copies = reshape(copies, nvars), ties = reshape (ties, nvars), missing = reshape (missing, nvars),
                   active = reshape (active, nvars), names = names)
+    
+    
     h <- gifiEngine(gifi = g, ndim = ndim, itmax = itmax, eps = eps, verbose = verbose)
     a <- v <- z <- d <- y <- o <- as.list (1:nvars)
     dsum <- matrix (0, ndim, ndim)
