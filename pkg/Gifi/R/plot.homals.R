@@ -1,7 +1,7 @@
 plot.homals <- function(x, plot.type = "jointplot", plot.dim = c(1, 2), var.subset = "all", 
                         col.points = rainbow_hcl(ncol(x$data)), col.scores = "gray", 
                         col.lines = 1:x$ndim, cex.scores = 0.8, cex.loadings = 0.8, 
-                        labels.scores = FALSE, stepvec = NA, max.plot.array = c(2, 2), 
+                        labels.scores = FALSE, stepvec = NA, max.plot.array = NA, 
                         asp = 1, main, xlab, ylab, xlim, ylim, ...)
   {
     

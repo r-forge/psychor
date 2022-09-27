@@ -82,8 +82,9 @@
     \item Escape character fixes in various help files.
     }
 }
-\section{Version 0.3-12}{
+\section{Version 0.4-0}{
  \itemize{
     \item \code{levels} argument in \code{homals} and \code{princals} added for easier spline specification. 
+    \item Various fixes in \code{plot.princals}. 
     }
 }

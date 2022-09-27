@@ -7,7 +7,7 @@
 \usage{
 \method{plot}{princals}(x, plot.type = "loadplot", plot.dim = c(1, 2), var.subset = "all", 
 col.scores = "black", col.loadings = "black", col.lines = "black", cex.scores = 0.8, 
-cex.loadings = 0.8, stepvec = NA, max.plot.array = c(2, 2), expand = 1, 
+cex.loadings = 0.8, stepvec = NA, max.plot.array = NA, expand = 1, 
 asp = 1, main, xlab, ylab, xlim, ylim, ...)
 }
 %- maybe also 'usage' for other objects documented here.
