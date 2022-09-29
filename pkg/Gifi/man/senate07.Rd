@@ -11,7 +11,7 @@ display sharp liberal/conservative contrasts and coded them accordingly. In many
 procedural votes: amendments, motions to table, or votes on rules for debate. Often
 these votes reveal true attitudes frequently obscured in the final votes.
 }
-\usage{senate}
+\usage{senate07}
 \format{
 A data frame (98 senators) with the following variables:
 
