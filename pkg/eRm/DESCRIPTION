@@ -16,3 +16,4 @@ Encoding: UTF-8
 LazyData: yes
 LazyLoad: yes
 ByteCompile: yes
+RoxygenNote: 7.2.3
