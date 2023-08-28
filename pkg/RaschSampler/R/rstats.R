@@ -6,6 +6,10 @@ function(RSobj,userfunc,...)
       err.text<-paste(obj.name," is not a sample object - see help(\"rsextrobj\")",sep ="",collapse="")
       stop(err.text)
     }
+    # if (!(class(RSobj)=="RSmpl" || class(RSobj)=="RSmplext")){
+    #      err.text<-paste(obj.name," is not a sample object - see help(\"rsextrobj\")",sep ="",collapse="")
+    #      stop(err.text)
+    # }
 
     # extracts simulated matrices into three dimensional array sim
     n_tot  <- RSobj$n_tot

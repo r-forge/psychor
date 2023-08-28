@@ -6,6 +6,10 @@ function(RSobj,start=1,end=8192)
       err.text<-paste(obj.name," is not a sample object - see help(\"rsextrobj\")",sep ="",collapse="")
       stop(err.text)
     }
+    # if (!(class(RSobj)=="RSmpl" || class(RSobj)=="RSmplext")){
+    #      err.text<-paste(obj.name,"not a sample object - see help(\"rsextrobj\")",sep ="",collapse="")
+    #      stop(err.text)
+    # }
 
     n_tot  <- RSobj$n_tot
     if (end>n_tot) end<-n_tot

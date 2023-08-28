@@ -2,6 +2,8 @@
 function(inpmat,controls=rsctrl()){
 
   if (!("RSctr" %in% class(controls)))  stop("controls is not a control object - see help(\"rsctrl\")")
+   # if (!(class(controls)=="RSctr"))
+   #       stop("controls is not a control object - see help(\"rsctrl\")")
 
    n       <- dim(inpmat)[1]
    k       <- dim(inpmat)[2]
