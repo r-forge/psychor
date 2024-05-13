@@ -2,6 +2,16 @@
 \title{News for Package \pkg{eRm}}
 \encoding{UTF-8}
 
+\section{Changes in Version 1.0-7}{
+  \itemize{
+      \item \code{coef.ppar()} exported.
+      \item Standard errors added to \code{theta.table} object in \code{person.parameter.eRm}.
+      \item NA pattern labelling fixed in \code{summary.ppar}.
+      \item Bug in \code{plotICC()} fixed.
+	}
+}
+
+
 \section{Changes in Version 1.0-6}{
   \itemize{
       \item duplicated top-level assingments removed.
