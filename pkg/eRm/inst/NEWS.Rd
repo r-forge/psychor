@@ -2,6 +2,12 @@
 \title{News for Package \pkg{eRm}}
 \encoding{UTF-8}
 
+\section{Changes in Version 1.0-8}{
+  \itemize{
+      \item Bug in \code{thresholds.eRm()} fixed for models fitted with \code{se = FALSE}.
+	}
+}
+
 \section{Changes in Version 1.0-7}{
   \itemize{
       \item \code{coef.ppar()} exported.
