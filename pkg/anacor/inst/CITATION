@@ -1,20 +1,11 @@
-citHeader("To cite anacor in publications use:")
-
-citEntry(entry = "Article",
-  title        = "Simple and Canonical Correspondence Analysis Using the {R} Package {anacor}",
-  author       = personList(person("Jan", "de Leeuw"),
-                   as.person("Patrick Mair")),
-  journal      = "Journal of Statistical Software",
-  year         = "2009",
-  volume       = "31",
-  number       = "5",
-  pages        = "1--18",
-  url          = "https://www.jstatsoft.org/v31/i05/",
-
-  textVersion  =
-  paste("Jan de Leeuw, Patrick Mair (2009).",
-        "Simple and Canonical Correspondence Analysis Using the R Package anacor.",
-        "Journal of Statistical Software, 31(5), 1-18.",
-        "URL https://www.jstatsoft.org/v31/i05/.")
+bibentry(bibtype="Article",
+  title   = "Simple and Canonical Correspondence Analysis Using the R Package anacor",
+  author = c(person(given = "Jan", family = "de Leeuw", email = "jdeleeuw@icloud.com"),
+             person(given = "Patrick", family = "Mair", email = "mair@fas.harvard.edu", comment = c(ORCID = "0000-0003-0100-6511"))),
+  journal = "Journal of Statistical Software",
+  year    = "2009",
+  page    = "1--18",
+  volume  = "31",
+  issue   = "5",
+  doi = "10.18637/jss.v031.i05"
 )
-

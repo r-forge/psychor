@@ -1,8 +1,8 @@
 Package: anacor
 Type: Package
 Title: Simple and Canonical Correspondence Analysis
-Version: 1.1-4
-Date: 2022-06-09
+Version: 1.1-5
+Date: 2025-05-21
 Authors@R: c(person("Patrick", "Mair", role = c("aut", "cre"), email = "mair@fas.harvard.edu"), person("Jan", "De Leeuw", role = "aut"))
 Author: Patrick Mair [aut, cre], Jan De Leeuw [aut]
 Maintainer: Patrick Mair <mair@fas.harvard.edu>
@@ -14,4 +14,4 @@ License: GPL-2
 LazyData: yes
 LazyLoad: yes
 ByteCompile: yes
-NeedsCompilation: yes
+
