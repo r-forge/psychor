@@ -2,7 +2,7 @@ Package: eRm
 Type: Package
 Title: Extended Rasch Modeling
 Version: 1.0-10
-Date: 2025-05-22
+Date: 2025-05-27
 Authors@R: c(person(given="Patrick", family="Mair", email="mair@fas.harvard.edu", role=c("cre","aut")),
              person(given="Thomas", family="Rusch", email="thomas.rusch@wu.ac.at", role="aut"),
              person(given="Reinhold", family="Hatzinger", role="aut"),
